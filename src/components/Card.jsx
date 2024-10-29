@@ -7,9 +7,9 @@ const {card} = props;
     <div className="card">
       {props.children}
       <div className="card-body">
-        <div className="card-title">{card.title}</div>
+        <h5 className="card-title">{card.title}</h5>
         <p className="card-text">{card.text}</p>
-        <a href="#" className='btn btn-primary'>Go somewhere</a>
+        <button href="#" className='btn btn-primary'>{card.btnText}</button>
       </div>
     </div>
   );

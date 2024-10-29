@@ -4,5 +4,16 @@ body {
 
 .card {
   width: 18rem;
+  border: thin solid black;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+    
 }
 
+.card-title {
+  font-size: medium;
+}
+
+.card-body {
+margin-left: 20px;
+}
