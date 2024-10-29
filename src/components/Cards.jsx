@@ -17,7 +17,7 @@ function Cards() {
   return (
     <div className="Cards">
       <Card className="card" card={card1}>
-        <img src="http://via.placeholder.com/286x180/" className="card-img-top" alt="Card image cap" />
+        <img src="http://via.placeholder.com/286x180/" className="card-img-top" alt="..." />
       </Card>
       <Card className="card" card={card2}>
 
